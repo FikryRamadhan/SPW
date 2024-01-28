@@ -80,7 +80,6 @@
             <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
               <li><a href="#mu-slider">HOME</a></li>
               <li><a href="#mu-about-us">ABOUT US</a></li>
-              <li><a href="#mu-restaurant-menu">MENU</a></li>
               <li><a href="#mu-chef">OUR TEAM</a></li>
               <li><a href="#mu-contact">CONTACT</a></li>
             </ul>
@@ -334,7 +333,7 @@
                         <img src="assets/img/girl.png" alt="chef img" />
                       </figure>
                       <div class="mu-single-chef-info">
-                        <h4>Reysa</h4>
+                        <h4>Raisya</h4>
                         <span>Girl Chef</span>
                       </div>
                       <div class="mu-single-chef-social">
@@ -491,7 +490,7 @@
                           <p>
                             <i class="fa fa-envelope-o"></i
                             ><a href="fikryramadhan572@gmail.com"
-                              >fikryramadhan572@gmail.com"></a
+                              >fikryramadhan572@gmail.com</a
                             >
                           </p>
                         </address>
@@ -566,7 +565,6 @@
     <script src="assets/js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="assets/js/bootstrap.js"></script>
-    Slick slider
     <script type="text/javascript" src="assets/js/slick.js"></script>
     <!-- Counter -->
     <script type="text/javascript" src="assets/js/waypoints.js"></script>
@@ -591,7 +589,7 @@
         const menu = document.getElementById('menu').value;
         const pesan = document.getElementById('pesan').value;
 
-        const url = "https://web.whatsapp.com/send?phone=6282165015868&text=Hallo%20Kak%2CSaya%20*"+ name +"*%20dari%20kelas%20*"+ kelas +"*.%0ASaya%20ingin%20memesan%20menu%3A%20*"+ menu +"*.%0APesan%20saya%20untuk%20admin%3A%20*"+ pesan +"*"
+        const url = "https://api.whatsapp.com/send?phone=6282165015868&text=Hallo%20Kak%2CSaya%20*"+ name +"*%20dari%20kelas%20*"+ kelas +"*.%0ASaya%20ingin%20memesan%20menu%3A%20*"+ menu +"*.%0APesan%20saya%20untuk%20admin%3A%20*"+ pesan +"*"
 
         window.open(url);
       }
